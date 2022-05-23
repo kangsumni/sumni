@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+    <br/>
+    <p><button><a href="https://imkanghyuk.github.io/kanghyuk/intro.html">처음으로</a></button>
+    </p>
+    
+    <a href="http://127.0.0.1:5500/su01.html">
+        <p style="text-align: center; font-size: 8pt; color: rgb(10, 10, 10)">
+          Self-introduction
+        </p>
+      </a>
+    
+      <hr />
+    <!-- <h1>신상품 목록</h1> -->
+    <div class="container">
+      <ul class="prod_list">
+        <li>
+          <div class="box_prod1">
+            <img src="https://ifh.cc/g/wtXvkj.jpg" alt="">
+          </div>
+          <div class="caption" class="div_prod1">
+              <a href="https://www.instagram.com/kangsumin_/">
+              <img src="https://ifh.cc/g/SDPwmP.jpg"></a>
+            <!-- <h2>강수민</h2>
+            <p>캐릭터 인형</p>
+            <p>가격:25,000원</p> -->
+          </div>
+        </li>
+        <li>
+          <img src="https://ifh.cc/g/ZlGO0v.jpg" alt="">
+          <div class="caption" class="div_prod2">
+            <a href="https://blog.naver.com/dldmscks104/222718618965">
+            <img src="https://ifh.cc/g/LSNGXP.jpg"></a>
+          </div>
+        </li>
+        <li>
+          <img src="https://ifh.cc/g/dlQgaK.jpg" alt="">
+          <div class="caption" class="div_prod3">
+            <a href="https://programs.sbs.co.kr/enter/runningman/main">
+            <Img src="https://ifh.cc/g/dm369A.jpg"></a> 
+          </div>
+        </li>
+        <li>
+            <img src="https://ifh.cc/g/vcxJYg.jpg" alt="">
+            <div class="caption" class="div_prod2">
+                <a href="https://www.theventi.co.kr/new2020/menu/all.html?mode=3">
+                    <img src="https://ifh.cc/g/GQCN5Q.jpg">
+                </a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  <style>
+      .prod_list>li {
+  list-style-type: none;
+  float: left;
+  padding-right: 10px;
+  height:700px;
+  overflow: hidden;
+}
+
+.prod_list .caption {
+  background-color: black;
+  /* opacity: 0; */
+  width: 300px;
+  height: 680px;
+  line-height: 30px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.prod_list .caption h2, .prod_list .caption p {
+  text-align: center;
+  color: white;
+}
+
+/* .prod_list li에 호버하면 .caption이 다음 동작을 실행 */
+.prod_list li:hover .caption {
+  animation: move 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-102%);
+    opacity: 10;
+  }
+}
+
+
